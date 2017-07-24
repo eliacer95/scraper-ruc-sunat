@@ -8,14 +8,20 @@ npm install scraper-ruc-sunat
 ```
 var scraper = require("scraper-ruc-sunat");
 
+//OPTIONAL
+var site_root = 'http://localhost:80/api/contributors';
+
 scraper.getInformation("20131312955" , function (err, data) {
 	if (err) {
 		console.error(err);
 	} else {
-    //All data...
+    		//All data...
 		Object.keys(data).forEach(function(key,index) {
 		  console.log(key+": "+data[key]); 
 		});
+		
+		//OPTIONAL
+		scraper.addRegister(site_root, data);
 	}
 });
 
@@ -25,6 +31,7 @@ scraper.getInformation("20131312955" , function (err, data) {
 
 * scraper.getInformation(ruc,cb) => basic information
 * scraper.getAllInformation(ruc,cb) => extended information
+* scraper.addRegister(site_root, data) => Send data to API REST
 
 ## Requirements
 
