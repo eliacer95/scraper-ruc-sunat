@@ -1,6 +1,6 @@
 {
   "name": "scraper-ruc-sunat",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A basic scraper to get information by RUC from SUNAT website",
   "main": "lib/index",
   "scripts": {
