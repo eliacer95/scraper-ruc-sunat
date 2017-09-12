@@ -94,20 +94,15 @@ scraper.getInformation("20131312955" , function (err, data) {
 
 ```
 [ { document_type: 'DNI',
-    nro_doc: '10168821',
-    full_name: 'CONTRERAS CASTRO TEODOSIA MAXIMINA',
-    position: 'REPRESENTANTE DE UNIVERSIDADES',
-    date_from: '19/01/2013' },
+    nro_doc: '05403665',
+    full_name: 'DAVILA PERALES OMAR IVAN',
+    position: 'INTENDENTE',
+    date_from: '01/07/2015' },
   { document_type: 'DNI',
-    nro_doc: '10323468',
-    full_name: 'ACU�A HURTADO NILTON',
-    position: 'GERENTE GENERAL',
-    date_from: '03/08/2016' },
-  { document_type: 'DNI',
-    nro_doc: '42514780',
-    full_name: 'TICONA MAMANI SARA FLOR',
-    position: 'GERENTE',
-    date_from: '01/01/2016' } 
+    nro_doc: '09439171',
+    full_name: 'TAM LAU JORGE LUIS',
+    position: 'CONTADOR',
+    date_from: '01/01/2013' }  
 ]
 
 ```
